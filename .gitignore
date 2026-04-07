@@ -1,0 +1,41 @@
+# ─── Report generation scripts (do not expose) ───────────────────────────────
+write_final_report.py
+write_isbi_report.py
+gen_eval_pdf.py
+
+# ─── Generated report artifacts ──────────────────────────────────────────────
+*.docx
+*.pdf
+
+# ─── Large data and model outputs ────────────────────────────────────────────
+outputs/
+data/
+
+# ─── Runtime logs ────────────────────────────────────────────────────────────
+pipeline_log/
+*.log
+
+# ─── SLURM job output files ──────────────────────────────────────────────────
+*.out
+*.err
+
+# ─── Python cache ────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ─── Jupyter temporary files ─────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── Explainability sample outputs (generated at runtime) ────────────────────
+explainability_samples/
+
+# ─── Metrics (generated at runtime) ─────────────────────────────────────────
+metrics/
+
+# ─── OS and editor artifacts ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
