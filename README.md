@@ -1,7 +1,7 @@
 # Wildfire Burn-Scar Severity Mapping
 
 **ENSF-617 | Group 40**  
-Aparna Ayyalasomayajula · Radadiya Manankumar · (Group 40)
+Aparna Ayyalasomayajula · Radadiya Mansi Mukesh Bhai· (Group 40)
 
 Automated burn-severity segmentation of post-fire Sentinel-2 imagery using deep learning.  
 The pipeline downloads satellite data, trains four U-Net variants, evaluates them against physical baselines, and produces publication-quality figures and a full evaluation notebook.
