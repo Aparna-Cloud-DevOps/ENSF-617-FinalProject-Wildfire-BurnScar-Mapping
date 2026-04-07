@@ -1,0 +1,1 @@
+# ENSF-617-FinalProject-Wildfire-BurnScar-Mapping
