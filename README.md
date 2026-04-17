@@ -31,7 +31,7 @@ Wildfire burn-scar mapping is critical for post-fire land management and ecosyst
 - Constructs **256×256 px patches** at 10 m resolution with 7 input channels: `R, G, B, NIR, SWIR1, NBR_pre, dNBR`
 - Trains four **U-Net variants** (UNet, ResUNet, AttentionUNet, UNet++) on MTBS/NBAC 4-class severity labels
 - Evaluates against a **dNBR threshold baseline** and a **Random Forest baseline**
-- Performs **ablation studies**, **cross-region transfer** evaluation, **inference benchmarking**, and **Grad-CAM explainability**
+- Performs **ablation studies**, **inference benchmarking**, and **Grad-CAM explainability**
 
 **Severity classes (MTBS scheme):**
 
