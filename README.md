@@ -256,12 +256,6 @@ python baseline.py --rf   # includes Random Forest (omit flag for dNBR only)
 python ablation.py --experiments A,B,C --epochs 60 --batch 8
 ```
 
-### Cross-region evaluation
-
-```bash
-python cross_region_eval.py --archs all
-```
-
 ### Inference benchmarking
 
 ```bash
